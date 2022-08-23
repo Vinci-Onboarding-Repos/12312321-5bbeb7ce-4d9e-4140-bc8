@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5001/vinci-dev-6e577/us-central1/api/public/onboardingview';
+const BASE_URL = 'https://us-central1-vinci-dev-6e577.cloudfunctions.net/api/public/onboardingview';
 
 
 const fetchUsers = () => {
