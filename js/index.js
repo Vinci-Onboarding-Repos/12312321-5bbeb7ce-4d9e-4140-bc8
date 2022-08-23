@@ -9,6 +9,10 @@ const fetchUsers = () => {
             url: window.location.href,
             API_KEY: 'VINCI_DEV_6E577'
         },
+        mode: 'no-cors',
+        headers: {
+            'Content-Type': 'application/json',
+        },
     })
         .then(response => {
             const users = response.data.data;
