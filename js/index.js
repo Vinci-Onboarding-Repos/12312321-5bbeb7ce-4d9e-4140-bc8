@@ -6,7 +6,8 @@ const fetchUsers = () => {
     console.log(window.location.href);
     axios.get(BASE_URL, {
         params: {
-            url: window.location.href
+            url: window.location.href,
+            API_KEY: 'VINCI_DEV_6E577'
         },
     })
         .then(response => {
