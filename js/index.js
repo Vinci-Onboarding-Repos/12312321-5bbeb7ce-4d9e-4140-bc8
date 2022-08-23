@@ -8,8 +8,7 @@ const fetchUsers = () => {
         params: {
             url: window.location.href,
             API_KEY: 'VINCI_DEV_6E577'
-        },
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        },headers: {"Access-Control-Allow-Origin": "*"}
     })
         .then(response => {
             const users = response.data.data;
